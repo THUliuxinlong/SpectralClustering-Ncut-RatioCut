@@ -22,14 +22,14 @@ mincut相对容易，但是在许多情况下，只是将⼀个单独的顶点�
 
 1.基于Ncut的结果（两种Normalized spectral clustering）：
 
-<img src="https://github.com/THUliuxinlong/PicGo/raw/main/img/2022-12-22-231632.png" alt="image-20221203112151348" style="zoom:80%;" />
+<img src="https://lxlpicbed.oss-cn-beijing.aliyuncs.com/img/2023-03-07-115656.png" alt="image-20230307115655536" style="zoom:80%;" />
 
 ``` python
 silhouette_score: 0.516969    CH_score: 52118.063906    DBI: 0.541529
 time_Ncut_1: 116.464843 s
 ```
 
-<img src="https://github.com/THUliuxinlong/PicGo/raw/main/img/2022-12-22-231650.png" alt="image-20221203112231075" style="zoom:80%;" />
+<img src="https://lxlpicbed.oss-cn-beijing.aliyuncs.com/img/2023-03-07-115719.png" alt="image-20230307115718595" style="zoom:80%;" />
 
 ```python
 silhouette_score: 0.505002    CH_score: 47887.103704    DBI: 0.542372
@@ -38,7 +38,7 @@ time_Ncut_2: 114.181966 s
 
 2.基于Ratio的结果（Unnormalized spectral clustering）：
 
-<img src="https://github.com/THUliuxinlong/PicGo/raw/main/img/2022-12-22-231634.png" alt="image-20221203112247378" style="zoom:80%;" />
+<img src="https://lxlpicbed.oss-cn-beijing.aliyuncs.com/img/2023-03-07-115745.png" alt="image-20230307115744252" style="zoom:80%;" />
 
 ```python
 silhouette_score: 0.572918    CH_score: 43084.603199    DBI: 0.527152
@@ -47,7 +47,7 @@ time_RatioCut: 131.537393 s
 
 3.Kmeans的结果：
 
-<img src="https://github.com/THUliuxinlong/PicGo/raw/main/img/2022-12-22-231636.png" alt="image-20221203112301899" style="zoom:80%;" />
+<img src="https://lxlpicbed.oss-cn-beijing.aliyuncs.com/img/2023-03-07-115804.png" alt="image-20230307115802805" style="zoom:80%;" />
 
 ```python
 silhouette_score: 0.604372    CH_score: 55283.346491    DBI: 0.481775
